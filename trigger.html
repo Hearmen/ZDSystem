@@ -1,0 +1,11 @@
+<html>
+<body>
+<script>
+  function g(){ 
+    alert("TRIGGER : " + this.localStorage.getItem("secureToken")) 
+    alert("TRIGGER : " + this.myObj.getTokenNoFrak(localStorage.getItem("secureToken")))
+  }
+</script>
+<button onclick="g()"> Click Me</button>
+</body>
+</html>
